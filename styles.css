@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f3f3f3;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #ff9933;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+main {
+  padding: 20px;
+}
+
+#user-section input, #post-section textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+button {
+  background: #138808;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background: #0f6606;
+}
+
+#feed {
+  margin-top: 20px;
+}
+
+.post {
+  background: white;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
