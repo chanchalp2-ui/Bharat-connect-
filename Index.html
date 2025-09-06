@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BharatConnect</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="app.js"></script>
+  <link rel="manifest" href="manifest.json" />
+</head>
+<body>
+  <header>
+    <h1>🇮🇳 BharatConnect</h1>
+  </header>
+  <main>
+    <section id="user-section">
+      <input type="text" id="username" placeholder="Apna naam likho..." />
+    </section>
+    <section id="post-section">
+      <textarea id="postContent" placeholder="Kya chal raha hai?"></textarea>
+      <button onclick="addPost()">Post Karo</button>
+    </section>
+    <section id="feed">
+      <h2>📢 Recent Posts</h2>
+      <div id="posts"></div>
+    </section>
+  </main>
+</body>
+</html>
